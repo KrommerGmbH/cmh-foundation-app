@@ -1,12 +1,40 @@
 {
   "name": "@cmh/foundation-app",
   "version": "0.1.0",
-  "private": true,
+  "description": "Open-source foundation package with DAL, bootstrap, i18n, menu, and shell contracts for local Shopware-oriented Electron admin apps.",
+  "private": false,
+  "license": "MIT",
   "type": "module",
   "main": "./src/index.ts",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "build": "pnpm run typecheck"
+  },
+  "keywords": [
+    "electron",
+    "vue",
+    "shopware",
+    "shopware-admin",
+    "foundation",
+    "dal",
+    "repository-factory",
+    "i18n"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KrommerGmbH/cmh-foundation-app.git"
+  },
+  "homepage": "https://github.com/KrommerGmbH/cmh-foundation-app#readme",
+  "bugs": {
+    "url": "https://github.com/KrommerGmbH/cmh-foundation-app/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "exports": {
     ".": "./src/index.ts",
