@@ -22,6 +22,13 @@ Use this package when a host app needs shared contracts for:
 
 The host application still owns actual storage, entity registration timing, route composition, and business-domain rules.
 
+## Project metadata
+
+- Built as part of a two-day implementation effort for the combined `@cmh/ui-component` + `@cmh/foundation-app` split.
+- Produced in Visual Studio Code with GitHub Copilot assistance.
+- Primary model workflow used: GPT-5.4 and Claude Opus 4.7.
+- Approximate UDS token usage attributed to this package: `61 UDS` out of a combined `125 UDS` total.
+
 ## Public exports
 
 - `@cmh/foundation-app`
