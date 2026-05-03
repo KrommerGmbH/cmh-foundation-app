@@ -1,0 +1,1 @@
+export const FOUNDATION_CHATBOT_I18N_STUB = true
